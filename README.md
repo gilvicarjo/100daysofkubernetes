@@ -28,6 +28,8 @@ openssl x509 -req -in client.csr -CA **ca.crt** -CAkey **ca.key** -CAcreateseria
 
 Step 3 - Setup credentials in kubeconfig
 
+For example:
+
 #### Build user information for martin in the default kubeconfig file: User = martin , client-key = /root/martin.key and client-certificate = /root/martin.crt (Ensure don't embed within the kubeconfig file)
 
 ```
